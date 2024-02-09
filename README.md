@@ -15,8 +15,8 @@ This project is a barcode generator built using Python and Flask framework. It a
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/GabrielAlves263/BarCodeGenerator.git
-   cd BarCodeGenerator 
+   git clone https://github.com/GabrielAlves263/barcode-generator.git
+   cd barcode-generator
 
 2. Create and activate a virtual environment:
     ```bash
@@ -44,3 +44,20 @@ This project is a barcode generator built using Python and Flask framework. It a
   pytest
 
 You can use tools like cURL or Postman for making HTTP requests.
+
+## Code Quality
+
+- This project utilizes Pylint Pre-commit hooks for code linting. Ensure you have Pylint installed in your environment.
+
+- To manually lint the code:
+   ```bash
+   pylint run.py
+
+## Built With
+
+- Flask - Web framework
+- Cerberus - Data validation
+- Pillow - Imaging library
+- pytest - Testing framework
+- python-barcode - Barcode generation library
+- virtualenv - Virtual environment manager
